@@ -1,0 +1,29 @@
+h1 {
+        text-align: center;
+    }
+
+    .box {
+        display: inline-block;
+        width: 220px;
+        border: 2px solid gray;
+        background-color: #f2f2f2;
+        padding: 15px;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .box:hover {
+        outline: 3px solid blue;
+        outline-offset: 5px;
+    }
+
+    .price {
+        color: green;
+        font-weight: bold;
+    }
+
+    #button:hover
+    {
+        background-color:aquamarine;
+        cursor:zoom-in;
+    }

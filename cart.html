@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Product Display</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+    <h1>Our Products</h1>
+
+    <div style="text-align:center;">
+
+        <div class="box">
+            <img src="../public/laptop.webp" height="100px" width="100px">
+            <h2>Laptop</h2>
+            <p>Fast and light laptop for work and study.</p>
+            <p id="price">Bdt750</p>
+            <button id="button" onclick="buy(750)">Buy Now</button>
+        </div>
+
+        <div class="box">
+            <img src="../public/headphone.jpeg" height="100px" width="100px">
+            <h2>Headphones</h2>
+            <p>Wireless headphones with clear sound.</p>
+            <p class="price">Bdt60</p>
+            <button id="button" onclick="buy(60)" >Buy Now</button>
+        </div>
+
+        <div class="box">
+            <img src="../public/watch.avif" height="100px" width="100px">
+            <h2>Smartwatch</h2>
+            <p>Track your steps, sleep and heart rate.</p>
+            <p class="price">Bdt90</p>
+            <button id="button" onclick="buy(90)">Buy Now</button>
+        </div>
+
+    </div>
+
+    <h2 id="total">Total: Bdt0</h2>
+
+    <script src="cart.js"></script>
+
+</body>
+
+</html>
